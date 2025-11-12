@@ -37,8 +37,8 @@ This system helps manage **invoices, products, customers, suppliers, purchases, 
 #### 🔐 Login Window
 ![Login Window](screenshots/login.png)
 
-#### 🧾 GST Invoice Module
-![Invoice Module](screenshots/GST_invoice.png)
+#### 📊 Dashboard
+![Dashboard](screenshots/dashboard.png)
 
 #### 📦 Products Module
 ![Products Module](screenshots/products.png)
@@ -46,8 +46,10 @@ This system helps manage **invoices, products, customers, suppliers, purchases, 
 #### 🚚 Supplier Module
 ![Supplier Module](screenshots/supplier.png)
 
-#### 📊 Dashboard
-![Dashboard](screenshots/dashboard.png)
+#### 🧾 GST Invoice Module
+![Invoice Module](screenshots/GST_invoice.png)
+
+
 
 ---
 
