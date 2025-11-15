@@ -1,29 +1,46 @@
-# JSMART ERP - GST Billing System
+# 💼 JSMART ERP – GST Billing & Inventory Management System  
 
-# 💼 JSMART ERP System
-17:00 12-11-2025
-A desktop-based **ERP (Enterprise Resource Planning)** software built using **Python (Tkinter)** and **PostgreSQL** database.  
-This system helps manage **invoices, products, customers, suppliers, purchases, sales, and stock** for small to medium businesses.
+A desktop-based **ERP (Enterprise Resource Planning)** software built using **Python (Tkinter)** and **PostgreSQL**.  
+This system helps manage **invoices, products, customers, suppliers, purchases, sales, and stock** for small & medium businesses.
 
 ---
 
-## 🚀 Features
+# 🔵 Latest Update – (15 Nov 2025)
 
-✅ **User Authentication** – Secure login system for admin access  
-✅ **Product Management** – Add, update, delete, and view all products  
-✅ **Supplier Management** – Maintain supplier records with phone and address  
-✅ **Customer Management** – Manage customer data easily  
-✅ **Invoice Management** – Create GST invoices with auto-calculated CGST/SGST and total amount  
-✅ **Purchase & Sales Records** – Track all transactions  
-✅ **Database Integration** – PostgreSQL used for storing all records safely  
-✅ **GUI Interface** – Fully developed with Tkinter for easy navigation
+### ✔ Added Custom JSMART Logo  
+New professional branding added on login, dashboard, and invoice screens.
+
+### ✔ Updated UI Color Theme  
+Applied a modern green-accent theme with a cleaner layout.
+
+### ✔ New Updated Screens (Aaj ka Kaam)  
+Added new updated UI designs including:  
+- Updated Login Window  
+- Updated Dashboard  
+- Updated GST Invoice Billing Window  
+
+(New screenshots added below 👇)
 
 ---
 
-## 🛠️ Tech Stack
+# 🚀 Features
 
-| Component | Technology Used |
-|------------|----------------|
+✅ **User Authentication** – Secure login system  
+✅ **Product Management** – Add / Update / Delete products  
+✅ **Supplier Management** – Track supplier data + GST number  
+✅ **Customer Management** – Auto-fill customer phone & GST  
+✅ **GST Invoice Billing** – CGST / SGST auto calculation  
+✅ **Purchase & Sales Records** – Track transactions  
+✅ **Stock Management** – Auto-updated stock  
+✅ **PostgreSQL Database** – Safe & secure  
+✅ **Tkinter GUI** – Easy & modern interface  
+
+---
+
+# 🛠️ Tech Stack
+
+| Component | Technology |
+|----------|------------|
 | **Frontend (GUI)** | Python Tkinter |
 | **Backend** | Python |
 | **Database** | PostgreSQL |
@@ -32,46 +49,75 @@ This system helps manage **invoices, products, customers, suppliers, purchases, 
 
 ---
 
-## 📸 Screenshots
+# 📸 Screenshots (Updated)
 
-#### 🔐 Login Window
-![Login Window](screenshots/login.png)
+### 🔐 Updated Login Window  
+![Updated Login](screenshots/updated_login_window.png)
 
-#### 📊 Dashboard
-![Dashboard](screenshots/dashboard.png)
+### 📊 Updated Dashboard  
+![Updated Dashboard](screenshots/updated_dashboard.png)
 
-#### 📦 Products Module
-![Products Module](screenshots/products.png)
-
-#### 🚚 Supplier Module
-![Supplier Module](screenshots/supplier.png)
-
-#### 🧾 GST Invoice Module
-![Invoice Module](screenshots/GST_invoice.png)
-
-
+### 🧾 Updated GST Invoice Billing  
+![Updated Billing](screenshots/updated_billing.png)
 
 ---
 
-## 🧩 Database Structure (Example Tables)
+# 📁 Old Screenshot Modules (Previous Version)
+
+### 🧾 Old GST Invoice  
+![Old Invoice](screenshots/GST_invoice.png)
+
+### 📦 Products Module  
+![Products](screenshots/products.png)
+
+### 🚚 Supplier Module  
+![Supplier](screenshots/supplier.png)
+
+---
+
+# 🧩 Database Structure
 
 **Tables Used:**
-- `users`
-- `products`
-- `customers`
-- `suppliers`
-- `purchase`
-- `sales`
-- `invoices`
-- `invoice_items`
+- users  
+- products  
+- customers  
+- suppliers  
+- purchase  
+- sales  
+- invoices  
+- invoice_items  
 
-## ▶ How to Run
-1. Install Python 3.14
-2. Install psycopg2 library
-3. Set up PostgreSQL database with required tables
-4. Run `login.py` to start the ERP system
+---
 
+# ▶️ How to Run
 
+### 1. Install Libraries  
+```bash
+pip install psycopg2
+pip install pillow
+```
 
-### 📩 Contact: 8959813899
-Developed by **Jitesh Sachdev**
+### 2. Configure PostgreSQL  
+Update `db_connection.py`:
+
+```python
+def get_connection():
+    return psycopg2.connect(
+        host="localhost",
+        database="jsmart_erp",
+        user="postgres",
+        password="your_password"
+    )
+```
+
+### 3. Start the Software  
+```bash
+python login.py
+```
+
+---
+
+# 👨‍💻 Developer  
+**Developed by:** *Jitesh Sachdev*  
+📩 **Contact:** 8959813899  
+
